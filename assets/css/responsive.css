@@ -1,0 +1,113 @@
+/* reponsive */
+/* 
+PC: >=1024px
+Tablet: >=740px & <1024px
+Mobile: <740px
+*/
+
+/* Break Point */
+
+    /* PC */
+    @media(min-width: 64em)
+    {
+        
+    }
+    /* Tablet & Mobile*/
+    @media (max-width: 63.9375em )
+    {
+        .btn{
+            padding: 15px 16px;
+        }
+        #nav .subnav a{
+            padding: 5px 12px;
+         
+        }
+        .contact-form .form-control{
+            padding: 15px;
+            font-size: 16px;
+        }
+        .contact-submit-btn{
+            font-size: 17px;
+        }
+        .social{
+            font-size: 48px;
+
+        }
+        .social a{
+            margin: 0 8px;
+        }
+        #footer .copyright a{
+            padding: 12px 0;
+            display: inline-block;
+        }
+        .contact-info{
+            line-height: 2.0;
+        }
+    }
+        /* Tablet */
+    @media(min-width: 63.9375em) and (max-width: 63.9375em )
+    {
+        .search-box{
+            width: 100%;
+        }
+    }
+    
+      /* Mobile */
+    @media(max-width: 46.1875em)
+    {   
+    .s-full-width,
+    .s-col-full{
+            width: 100% !important;
+        }
+        .s-mt-8{
+            margin-top: 8px !important;
+        }
+        #header{
+            overflow: hidden;
+        }
+        #header .mobile-menu-btn{
+            display: block;
+        }
+        #header .search-btn {
+            display: none;
+        }
+        
+        #nav{
+            display: block;
+            
+        }
+        #nav li a{
+            padding: 1px 24px;
+        }
+        #nav >li{
+            display: block;
+        }
+        #nav >li:first-child{
+        display: inline-block;
+        }
+        #nav .subnav{
+            position: initial; 
+            /* reset veef gias trij mawcj ddinhj */
+            background-color: #333;
+        }
+        #nav .subnav a{
+            color: #fff;
+            padding: 5px 41px;
+            /* toi thieu la 42-46px tren mobile de user de dang tuong tac */
+        }
+        #header .search-box{
+            display: none;
+        }
+        #content .member-img{
+            width: 60%;
+            height: auto;
+        }
+        .contact-form{
+            margin-top: 32px;
+        }
+        .contact-info{
+            line-height: 2.0;
+        }
+
+
+    }
